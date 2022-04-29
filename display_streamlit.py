@@ -10,7 +10,7 @@ st.set_page_config(page_title="Day 5", layout="wide")
 def loadData():
     #query = "select * from tweetinformation"
     #df = db_execute_fetch(query, dbName="tweets", rdf=True)
-    df=pd.read_csv('cleaned_fintech_data.csv')
+    df=pd.read_csv('processed_tweet_data.csv')
     return df
 def selectHashTag():
     df = loadData()
