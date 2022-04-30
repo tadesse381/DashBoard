@@ -4,7 +4,7 @@ import streamlit as st
 import altair as alt
 from wordcloud import WordCloud
 import plotly.express as px
-st.set_page_config(page_title="Day 5", layout="wide")
+#st.set_page_config(page_title="Day 5", layout="wide")
 def loadData():
     #query = "select * from tweetinformation"
     #df = db_execute_fetch(query, dbName="tweets", rdf=True)
