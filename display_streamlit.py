@@ -81,6 +81,6 @@ st.markdown("<p style='padding:10px; background-color:#000000;color:#00ECB9;font
 selectLocAndAuth()
 st.title("Data Visualizations")
 wordCloud()
-with st.beta_expander("Show More Graphs"):
-    stBarChart()
-    langPie()
+#with st.beta_expander("Show More Graphs"):
+stBarChart()
+langPie()
